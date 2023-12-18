@@ -4,6 +4,7 @@
   "license": "MIT",
   "scripts": {
     "dev": "NODE_ENV=development webpack --mode development --config webpack.config.js --watch",
+    "start": "webpack-dev-server --mode development --open --hot",
     "build": "webpack --mode production"
   },
   "private": true,
